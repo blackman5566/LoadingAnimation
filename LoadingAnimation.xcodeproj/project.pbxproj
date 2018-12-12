@@ -12,6 +12,7 @@
 		CB18FB8321B537770000E40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB18FB8121B537770000E40D /* Main.storyboard */; };
 		CB18FB8521B537790000E40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB18FB8421B537790000E40D /* Assets.xcassets */; };
 		CB18FB8821B537790000E40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB18FB8621B537790000E40D /* LaunchScreen.storyboard */; };
+		CB18FB9021B537FA0000E40D /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18FB8F21B537FA0000E40D /* LoadingAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB18FB8421B537790000E40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB18FB8721B537790000E40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB18FB8921B537790000E40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB18FB8F21B537FA0000E40D /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		CB18FB7C21B537770000E40D /* LoadingAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CB18FB9121B538040000E40D /* LoadingAnimation */,
 				CB18FB7D21B537770000E40D /* AppDelegate.swift */,
 				CB18FB7F21B537770000E40D /* ViewController.swift */,
 				CB18FB8121B537770000E40D /* Main.storyboard */,
 				CB18FB8421B537790000E40D /* Assets.xcassets */,
 				CB18FB8621B537790000E40D /* LaunchScreen.storyboard */,
 				CB18FB8921B537790000E40D /* Info.plist */,
+			);
+			path = LoadingAnimation;
+			sourceTree = "<group>";
+		};
+		CB18FB9121B538040000E40D /* LoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CB18FB8F21B537FA0000E40D /* LoadingAnimation.swift */,
 			);
 			path = LoadingAnimation;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB18FB9021B537FA0000E40D /* LoadingAnimation.swift in Sources */,
 				CB18FB8021B537770000E40D /* ViewController.swift in Sources */,
 				CB18FB7E21B537770000E40D /* AppDelegate.swift in Sources */,
 			);
